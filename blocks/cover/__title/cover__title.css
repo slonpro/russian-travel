@@ -5,8 +5,21 @@
     margin-bottom: 32px;
     width: 560px;
     text-align: center;
-    margin: 0;
+    margin: 0 312px;
 }
+
+@media screen and (max-width: 1279px) {
+    .cover__title {
+        margin: 0 232px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .cover__title {
+        margin: 0 104px;
+    }
+}
+
 
 @media screen and (max-width: 767px) {
     .cover__title {
