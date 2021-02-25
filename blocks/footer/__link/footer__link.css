@@ -3,6 +3,7 @@
     line-height: 18px;
     color: #fff;
     margin-right: 18px;
+    text-decoration: none;
 }
 
 @media screen and (max-width: 767px) {
