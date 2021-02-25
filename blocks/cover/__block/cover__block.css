@@ -1,0 +1,29 @@
+.cover__block {
+    background: url(../../../img/cover.png) no-repeat;
+    min-height: 740px;
+    background-size: 100%;
+    margin: 0 48px 92px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    color: white;
+}
+
+.cover__block:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, .5);
+    z-index: -1;
+}
+
+.cover__block:hover {
+    opacity: 0.8;
+transition: 0.5s;
+}
