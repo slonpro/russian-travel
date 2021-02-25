@@ -4,3 +4,23 @@
   margin: 0 320px 64px;
   text-align: center;
 }
+
+@media screen and (max-width: 1279px) {
+  .lead__subtitle {
+    margin: 0 192px 64px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .lead__subtitle {
+    margin: 0 64px 56px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lead__subtitle {
+    margin: 0 16px 40px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
