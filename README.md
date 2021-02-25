@@ -9,3 +9,7 @@
 Сайт о путешествии по России.
 
 
+**Ссылка на проект**
+
+* [Ссылка на на GitHub Pages](https://slonpro.github.io/russian-travel/index.html)
+
