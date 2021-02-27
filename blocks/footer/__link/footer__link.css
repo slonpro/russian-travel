@@ -6,6 +6,16 @@
     text-decoration: none;
 }
 
+.footer__link:hover {
+    opacity: 0.8;
+    transition: 0.3s;
+    text-decoration: underline;
+}
+
+.footer__link:last-of-type {
+    margin-right: 0;
+}
+
 @media screen and (max-width: 767px) {
     .footer__link {
         font-size: 24px;

@@ -19,13 +19,15 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, .5);
+    background: #000;
+    opacity: 0.3;
+    transition: 0.5s;
     z-index: -1;
 }
 
-.cover__block:hover {
+.cover__block:hover:before {
     opacity: 0.8;
-transition: 0.5s;
+
 }
 
 @media screen and (max-width: 1279px) {
